@@ -1,0 +1,4 @@
+# Exact pins only. Comments and blank lines are not part of the digest.
+requests[security,socks]==2.32.3
+Flask==3.0.3 ; sys_platform == "linux" and python_version >= "3.11"
+tool @ git+https://example.com/org/tool.git@0123456789abcdef01230123456789abcdef0123
